@@ -1,5 +1,68 @@
-template-repository (1.0-1) unstable; urgency=medium
+mdit-py-plugins (0.4.0-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream release.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Emmanuel Arias <eamanu@yaerobi.com>  Fri, 16 Jun 2023 22:23:01 -0300
+
+mdit-py-plugins (0.3.5-1~exp1) experimental; urgency=medium
+
+  [ Debian Janitor ]
+  * debian/copyright: use spaces rather than tabs to start continuation lines.
+
+  [ Emmanuel Arias ]
+  * New upstream release.
+  * d/copyright: Update copyright year for debian/* files.
+
+ -- Emmanuel Arias <eamanu@yaerobi.com>  Wed, 26 Apr 2023 17:15:09 -0300
+
+mdit-py-plugins (0.3.3-1) unstable; urgency=medium
+
+  * New upstream version.
+  * d/copyright: Add copyright entry of the port of 'admon' plugin into the
+    project.
+  * d/control: Bump Standards-Version to 4.6.2 (from 4.6.1.1; no further
+    changes needed).
+
+ -- Emmanuel Arias <eamanu@yaerobi.com>  Thu, 22 Dec 2022 12:04:48 -0300
+
+mdit-py-plugins (0.3.1-2) unstable; urgency=medium
+
+  * source-only upload.
+
+ -- Emmanuel Arias <eamanu@yaerobi.com>  Wed, 19 Oct 2022 15:53:07 -0300
+
+mdit-py-plugins (0.3.1-1) unstable; urgency=medium
+
+  * New upstream version.
+  * d/control: Add flit as Build Depends. Remove python3-setuptools from
+    B-Depends, it's not longer needed.
+  * d/control: Bump Standards-Version to 4.6.1.1 (from 4.6.0.1; no further
+    changes needed).
+  * d/tests/control: Stop using @builddeps@ in Depends. Add python3-all,
+    python3-markdown-it, python3-pytest, python3-pytest-regressions as
+    Dependencies for autopkgtests.
+
+ -- Emmanuel Arias <eamanu@yaerobi.com>  Mon, 03 Oct 2022 18:46:20 -0300
+
+mdit-py-plugins (0.3.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * d/control: Build with pybuild's pyproject plugin. Add
+    pybuild-plugin-pyproject as Build Depends.
+  * d/copyright: Update debian/* files copyright year.
+  * d/control: Stop suggest installation of -doc package. It's not packaged
+    in Debian yet.
+
+ -- Emmanuel Arias <eamanu@yaerobi.com>  Tue, 11 Jan 2022 00:16:03 -0300
+
+mdit-py-plugins (0.2.8-2) unstable; urgency=medium
+
+  * source-only upload
+
+ -- Sandro Tosi <morph@debian.org>  Sun, 02 Jan 2022 12:32:57 -0500
+
+mdit-py-plugins (0.2.8-1) unstable; urgency=low
+
+  * Initial release (Closes: #998906)
+
+ -- Emmanuel Arias <eamanu@yaerobi.com>  Wed, 10 Nov 2021 15:16:33 +0000
